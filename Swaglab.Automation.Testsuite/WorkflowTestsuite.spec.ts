@@ -4,7 +4,7 @@ import {ClickPageExtensions} from '../Swaglab.Automation.Extensions/ClickPageExt
 import {WaitPageExtensions} from '../Swaglab.Automation.Extensions/WaitPageExtensions';
 import {GetPage} from '../SwagLab.Automation.Dependencies/GetPage.spec'
 import { LoginPage } from "../SwagLab.Automation.Dependencies/Login.spec";
-import { log } from "console";
+import assert  from "assert";
 
 test.describe('Organizing Constants and Extensions', async()=>{
 
@@ -36,7 +36,7 @@ test.describe('Organizing Constants and Extensions', async()=>{
     });
 
     test('Status of Login', async()=>{
-        console.log("Logged In");
+        assert.fail("No Test Found");
     });
 
 })
